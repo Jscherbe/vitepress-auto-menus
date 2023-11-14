@@ -1,6 +1,6 @@
 {
   "name": "@ulu/vitepress-auto-menus",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Use to automatically populate the config with the page links (default theme nav, sidebar). Supports configuration, page weight for ordering. Page tree can be used independently for custom implementations or you can use the helper function toDefaultTheme to convert.",
   "main": "index.js",
   "type": "module",
@@ -16,11 +16,13 @@
     "markdown",
     "tree",
     "pages",
-    "vuepress",
+    "vitepress",
     "nav",
     "navbar",
     "sidebar",
-    "menu"
+    "menu",
+    "auto",
+    "navigation"
   ],
   "author": "Joe Scherben",
   "license": "MIT",
