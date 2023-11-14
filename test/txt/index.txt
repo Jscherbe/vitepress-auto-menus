@@ -1,0 +1,6 @@
+---
+title: This page is plain text (txt)
+description: Some description
+---
+
+This is plain text file

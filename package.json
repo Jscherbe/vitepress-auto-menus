@@ -1,0 +1,40 @@
+{
+  "name": "@ulu/vitepress-auto-menus",
+  "version": "0.0.2",
+  "description": "Use to automatically populate the config with the page links (default theme nav, sidebar). Supports configuration, page weight for ordering. Page tree can be used independently for custom implementations or you can use the helper function toDefaultTheme to convert.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node ./test.js",
+    "test:dev" : "vitepress dev test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jscherbe/vitepress-auto-menus.git"
+  },
+  "keywords": [
+    "markdown",
+    "tree",
+    "pages",
+    "vuepress",
+    "nav",
+    "navbar",
+    "sidebar",
+    "menu"
+  ],
+  "author": "Joe Scherben",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jscherbe/vitepress-auto-menus/issues"
+  },
+  "homepage": "https://github.com/Jscherbe/vitepress-auto-menus#readme",
+  "dependencies": {
+    "directory-tree": "^3.5.1",
+    "front-matter": "^4.0.2",
+    "html-to-text": "^9.0.5",
+    "markdown-it": "^13.0.2"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.24"
+  }
+}
